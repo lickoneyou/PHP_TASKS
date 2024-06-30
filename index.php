@@ -10,6 +10,7 @@
       require './components/showcase.php';
       require './components/about.php';
       require './components/zoo.php';
+      require './components/map.php';
       ?>
       
   </main>
