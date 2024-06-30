@@ -57,5 +57,6 @@
     </div>
   </footer>
   <script src='../assets/js/nav.js'></script>
+  <?php require "./components/$jsScripts.php"; ?>
 </body>
 </html>
