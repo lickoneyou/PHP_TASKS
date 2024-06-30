@@ -1,5 +1,6 @@
 <?php
 $title = 'Donate';
+$page = 'donateLinks';
 require './components/header.php';
 ?>
 <main>
