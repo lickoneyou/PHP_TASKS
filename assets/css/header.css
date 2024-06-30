@@ -2,6 +2,9 @@ header {
   background-color: #000000;
   padding: 14px 220px;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logoAndNavWrapper {
@@ -43,4 +46,12 @@ nav ul {
 
 nav a {
   color: #fff;
+}
+
+.headerCopy {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 22.4px */
 }
