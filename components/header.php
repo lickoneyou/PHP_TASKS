@@ -10,6 +10,7 @@
   <link rel='stylesheet'  href='../assets/css/reset.css'>
   <link rel='stylesheet'  href='../assets/css/style.css'>
   <link rel='stylesheet'  href='../assets/css/header.css'>
+  <link rel='stylesheet'  href='../assets/css/showcase.css'>
   <title><?= $title ?></title>
 </head>
 <body>
