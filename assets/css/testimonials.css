@@ -1,0 +1,91 @@
+.testimonials {
+  padding: 140px 220px 180px 220px;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials > h2 {
+  color: #333b41;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 46.8px */
+  margin-bottom: 47px;
+}
+
+.testimonialsCardContainer {
+  display: flex;
+  gap: 30px;
+  overflow-x: scroll;
+  margin-bottom: 61px;
+}
+
+.testimonialCard {
+  min-width: 268px;
+  height: 391px;
+  border-radius: 20px;
+  border: 2px solid rgba(254, 189, 171, 0.74);
+  background: #f1f3f2;
+  padding: 15px 15px 19px 16px;
+}
+
+.testimonialCardAboutMan {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.testimonialCardAboutMan img {
+  width: 37px;
+  height: 37px;
+  border-radius: 20px;
+}
+
+.testimonialCardAboutMan h3 {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+}
+
+.testimonialCardAboutMan p {
+  color: #bdbdbd;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%; /* 18px */
+}
+
+.testimonial {
+  color: #767474;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%; /* 18px */
+  overflow: hidden;
+  text-overflow: clip;
+  max-height: calc(100% - 50px);
+}
+
+.testimonials button {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 22.4px */
+  text-transform: uppercase;
+  border-radius: 5px;
+  background: linear-gradient(114deg, #f9804b 1.49%, #fe9013 101.44%);
+  width: 298px;
+  height: 54px;
+}
+
+.testimonials > img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
