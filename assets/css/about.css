@@ -1,0 +1,55 @@
+.about {
+  padding: 140px 220px 180px 220px;
+  display: grid;
+  grid-template-columns: 6.5fr 5fr;
+  column-gap: 87px;
+  position: relative;
+}
+
+.aboutImg {
+  background-image: url('../img/bambooCap.png');
+  background-repeat: no-repeat;
+}
+
+.title {
+  color: #333b41;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 57.6px */
+  margin-bottom: 20px;
+}
+
+.titleDescr,
+.subTitleDescr {
+  color: #333b41;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.3px;
+}
+
+.titleDescr {
+  margin-bottom: 54px;
+  line-height: 133%;
+}
+
+.subTitleDescr {
+  line-height: 132%;
+}
+
+.subTitle {
+  color: #333b41;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 28.8px */
+  margin-bottom: 34px;
+}
+
+.aboutFlower {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
