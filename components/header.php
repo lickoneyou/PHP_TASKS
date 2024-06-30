@@ -18,4 +18,5 @@
       <?php require './components/logo.php'; ?>
       <?php require './components/nav.php'; ?>
     </div>
+      <p class='headerCopy'>Designed by ©</p>
   </header>
