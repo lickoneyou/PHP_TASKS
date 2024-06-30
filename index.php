@@ -8,7 +8,9 @@
       $display = 'block';
       $height = '700px';
       require './components/showcase.php';
+      require './components/about.php';
+      require './components/zoo.php';
       ?>
-      <?php require './components/about.php'; ?>
+      
   </main>
   <?php require './components/footer.php'; ?>
