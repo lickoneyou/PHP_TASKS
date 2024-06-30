@@ -15,4 +15,7 @@
       ?>
       
   </main>
-  <?php require './components/footer.php'; ?>
+  <?php
+  $jsScripts = 'indexJS';
+  require './components/footer.php';
+   ?>
