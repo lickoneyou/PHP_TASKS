@@ -12,6 +12,7 @@
   <link rel='stylesheet'  href='../assets/css/header.css'>
   <link rel='stylesheet'  href='../assets/css/showcase.css'>
   <?php require "./components/$page.php"; ?>
+  <link rel='stylesheet'  href='../assets/css/footer.css'>
   <title><?= $title ?></title>
 </head>
 <body>
