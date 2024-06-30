@@ -4,6 +4,12 @@ header {
   color: #fff;
 }
 
+.logoAndNavWrapper {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+}
+
 .logo {
   width: 82px;
   height: 52px;
@@ -11,6 +17,8 @@ header {
   border-radius: 2px;
   border: 1px solid #fff;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .logo > h1 {
@@ -26,4 +34,13 @@ header {
   position: absolute;
   left: 7.3px;
   bottom: 8.3px;
+}
+
+nav ul {
+  display: flex;
+  gap: 58px;
+}
+
+nav a {
+  color: #fff;
 }
