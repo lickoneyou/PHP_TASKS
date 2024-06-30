@@ -8,7 +8,10 @@ require './components/header.php';
   $display = 'none';
   $height = '390px';
   require './components/showcase.php';
+  require './components/donationHelps.php';
   ?>
 </main>
-<?php require './components/footer.php';
+<?php 
+$jsScripts = 'donateJS';
+require './components/footer.php';
 ?>
