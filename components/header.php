@@ -14,5 +14,8 @@
 </head>
 <body>
   <header>
-    <?php require './components/logo.php'; ?>
+    <div class='logoAndNavWrapper'>
+      <?php require './components/logo.php'; ?>
+      <?php require './components/nav.php'; ?>
+    </div>
   </header>
