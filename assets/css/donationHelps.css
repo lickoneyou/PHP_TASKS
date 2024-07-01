@@ -1,0 +1,296 @@
+.donationHelps {
+  padding: 40px 224px 180px 220px;
+  background: linear-gradient(
+      316deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    ),
+    linear-gradient(
+      316deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      316deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
+}
+
+.donationHelpsTitle {
+  color: #fff;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 46.8px */
+  margin-bottom: 10px;
+}
+
+.donationHelpsDescr {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 22.4px */
+  margin-bottom: 40px;
+}
+
+.donationInformationTitle {
+  color: #fe9013;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 46.8px */
+  margin-bottom: 60px;
+}
+
+.donationInformationConainer {
+  padding: 40px 92px 62px 92px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.52);
+  backdrop-filter: blur(2px);
+}
+
+.donationInformationConainerTitle {
+  color: #fe9013;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 57.6px */
+  margin-bottom: 20px;
+}
+
+.donationInformationConainerDesc {
+  color: #333b41;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 28.8px */
+  margin-bottom: 107px;
+}
+
+.pandaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 48px;
+}
+
+.aboutPandaDiet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.aboutPandaDiet h4 {
+  color: #000;
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 80%; /* 57.6px */
+  text-transform: uppercase;
+}
+
+.aboutPandaDiet p {
+  color: #333b41;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+.aboutPandaDietX {
+  font-size: 20px;
+}
+
+.amountTitle {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  margin-bottom: 17px;
+}
+
+.amoutnSchedule {
+  padding: 8px 30px 9px 26px;
+  border-radius: 2px;
+  background: #404950;
+  position: relative;
+  margin-bottom: 93px;
+}
+
+.amoutnSchedule hr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #72828e;
+  width: calc(100% - 60px);
+  height: 2px;
+}
+
+.amountEllipseWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.amountContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.largeBorder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+.mediumBorder {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+.easyBorder {
+  background: #ffee2e;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 10;
+}
+
+.amountCurrency {
+  position: absolute;
+  color: #333b41;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 36.4px */
+  text-transform: uppercase;
+  bottom: -50px;
+}
+
+.donationInformationConainer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.donationInformationConainer form input[type='number'] {
+  width: 268px;
+  height: 54px;
+  padding: 16px 9px;
+  border-radius: 2px;
+  border: 1px solid #929699;
+  margin-bottom: 25px;
+}
+
+.donationInformationConainer form input[type='number']::placeholder {
+  color: #929699;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+.radioWrapper {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.radioWrapper label {
+  color: #333b41;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  user-select: none;
+}
+
+.form_radio input[type='radio'] {
+  display: none;
+}
+
+.form_radio label:before {
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  background: transparent;
+  border: 1px solid orange;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.form_radio input[type='radio']:checked + label:before {
+  background: radial-gradient(circle, orange 40%, transparent 60%);
+}
+
+.donationInformationConainer button {
+  display: flex;
+  width: 298px;
+  height: 54px;
+  padding: 16px 1px 16px 5px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: linear-gradient(114deg, #f9804b 1.49%, #fe9013 101.44%);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 22.4px */
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.share {
+  color: #333b41;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  display: block;
+  text-align: center;
+}

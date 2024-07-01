@@ -1,0 +1,56 @@
+.showcase {
+  background-image: url('../img/GiantPandaShowcaseBG.png');
+  background-position: right;
+  padding: 12px 220px 100px 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.showcase .ellipse {
+  width: 465px;
+  height: 465px;
+  flex-shrink: 0;
+  border-radius: 465px;
+  background: linear-gradient(114deg, #f9804b 1.49%, #fe9013 101.44%);
+  position: relative;
+  right: 108px;
+}
+
+.showcase .descr {
+  color: #fff;
+  text-align: center;
+  font-size: 106.496px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75%; /* 79.872px */
+  text-transform: uppercase;
+  position: absolute;
+  top: 75px;
+  left: 82px;
+}
+
+.showcase .descr > span {
+  color: #ffee2e;
+}
+
+.showcase button {
+  display: flex;
+  width: 298px;
+  height: 54px;
+  padding: 16px 1px 16px 5px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: linear-gradient(114deg, #f9804b 1.49%, #fe9013 101.44%);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 22.4px */
+  text-transform: uppercase;
+  margin-right: 8.5%;
+}
